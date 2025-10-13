@@ -13,18 +13,18 @@ const proyectos = [
   {
     titulo: "Kairos App Móvil",
     descripcion: "Plataforma móvil para gestión financiera personal.",
-    tecnologias: ["React-Native", "JavaScript", "Gradle", "Java", "Express"],
+    tecnologias: ["React-Native-Puro", "TypeScript", "Gradle", "Java", "Metro"],
     imagen: "/gifs/dev-room.gif",
-    link: "https://tudemo.com/dashboard",
-    github: "https://github.com/tuusuario/dashboard-admin"
+    link: "",
+    github: "https://github.com/Starkora/Kairos_App"
   },
   {
     titulo: "Portfolio Next.js",
     descripcion: "Portafolio personal con SSR y animaciones.",
-    tecnologias: ["Next.js", "TypeScript", "Framer Motion"],
-    imagen: "/gifs/Home2.gif",
-    link: "https://tudemo.com/portfolio",
-    github: "https://github.com/tuusuario/portfolio-next"
+    tecnologias: ["React", "TypeScript", "Vite"],
+    imagen: "/image_projects/Portafolio_Personal.png",
+    link: "https://kora-works-portafolio.vercel.app/",
+    github: "https://github.com/Starkora/KoraWorks_Portafolio"
   },
   {
     titulo: "E-commerce Moderno",
@@ -32,7 +32,7 @@ const proyectos = [
     tecnologias: ["React", "Redux", "Stripe"],
     imagen: "/gifs/Home.gif",
     link: "https://tudemo.com/ecommerce",
-    github: "https://github.com/tuusuario/ecommerce-modern"
+    github: "https://github.com/Starkora/E-commerce-Esmeralda"
   },
   {
     titulo: "App de Tareas",

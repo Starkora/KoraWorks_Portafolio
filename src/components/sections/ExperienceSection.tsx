@@ -9,41 +9,23 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    year: '2024',
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Company',
-    description: 'Liderando el desarrollo de aplicaciones web complejas y mentorando desarrolladores junior.',
+    year: '2025',
+    title: 'Junior Software Developer',
+    company: 'Inetum Perú',
+    description: 'Función principal es apoyar en el desarrollo, prueba y mantenimiento de soluciones de software, siguiendo las especificaciones técnicas y los estándares establecidos por la organización.',
   },
   {
-    year: '2022',
-    title: 'Full Stack Developer',
-    company: 'Startup Innovation',
-    description: 'Desarrollo de MVPs y aplicaciones escalables usando tecnologías modernas.',
+    year: '2024',
+    title: 'Junior Functional Tester (QA)',
+    company: 'Inetum Perú',
+    description: 'Garantizar la calidad, funcionalidad y rendimiento del software a través del diseño, implementación, prueba y mantenimiento de aplicaciones.',
   },
   {
     year: '2021',
-    title: 'Frontend Developer',
-    company: 'Digital Agency',
-    description: 'Creación de interfaces interactivas y experiencias de usuario excepcionales.',
-  },
-  {
-    year: '2020',
-    title: 'UI/UX Designer',
-    company: 'Creative Studio',
-    description: 'Diseño de interfaces atractivas y optimización de experiencia de usuario.',
-  },
-  {
-    year: '2019',
-    title: 'Backend Developer',
-    company: 'DataSoft',
-    description: 'Desarrollo de APIs y gestión de bases de datos escalables.',
-  },
-  {
-    year: '2018',
-    title: 'Mobile Developer',
-    company: 'AppMasters',
-    description: 'Desarrollo de aplicaciones móviles multiplataforma.',
-  },
+    title: 'Freelance Frontend Developer',
+    company: 'Autónomo',
+    description: 'Desarrollo de sitios web y aplicaciones web personalizadas para clientes, utilizando tecnologías modernas de frontend como React, Typescript, Tailwind CSS y Next.js.',
+  }
 ];
 
 export const ExperienceSection: React.FC = () => {
