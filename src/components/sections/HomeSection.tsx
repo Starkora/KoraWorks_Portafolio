@@ -45,12 +45,19 @@ const HomeSection: React.FC = () => {
                             Como desarrollador frontend y creador de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full">
-                            <button className="bg-transparent text-white border-2 border-white rounded-full px-6 py-2 text-base hover:border-orange-500 hover:text-orange-500 transition w-full sm:w-auto">
+                            <button
+                                onClick={() => {
+                                    const el = document.getElementById('projects');
+                                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                }}
+                                className="bg-transparent text-white border-2 border-white rounded-full px-6 py-2 text-base hover:border-orange-500 hover:text-orange-500 transition w-full sm:w-auto flex items-center justify-center"
+                                aria-label="Ver proyectos"
+                            >
                                 Ver proyectos
                             </button>
-                            <button className="bg-transparent text-orange-500 border-2 border-orange-500 rounded-full px-6 py-2 text-base hover:bg-orange-500 hover:text-white transition w-full sm:w-auto">
+                            <a href="https://wa.me/+51953222207" target="_blank" rel="noopener noreferrer" className="bg-transparent text-orange-500 border-2 border-orange-500 rounded-full px-6 py-2 text-base hover:bg-orange-500 hover:text-white transition w-full sm:w-auto flex items-center justify-center">
                                 Contácta conmigo
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +102,7 @@ const HomeSection: React.FC = () => {
                         <motion.span whileHover={{ scale: 1.3, rotate: 10 }} whileTap={{ scale: 0.9 }} title="JavaScript"><FaJsSquare className="text-yellow-300 text-lg sm:text-xl" /></motion.span>
                     </div>
                     <a
-                        href="/cv/cv.pdf"
+                        href="/CV/CV_Esteban%20Cardenas.pdf"
                         download
                         className="flex items-center gap-2 bg-black/60 text-white border-2 border-white rounded-full px-5 py-2 text-base mb-4 hover:border-orange-500 hover:text-orange-500 transition mx-auto justify-center"
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
