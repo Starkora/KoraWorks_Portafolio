@@ -30,8 +30,8 @@ const proyectos = [
     titulo: "E-commerce Moderno",
     descripcion: "Tienda online con carrito y pagos integrados.",
     tecnologias: ["React", "Redux", "Stripe"],
-    imagen: "/gifs/Home.gif",
-    link: "https://tudemo.com/ecommerce",
+    imagen: "/image_projects/E-commerce.png",
+    link: "https://e-commerce-esmeralda.vercel.app/",
     github: "https://github.com/Starkora/E-commerce-Esmeralda"
   },
   {
@@ -49,22 +49,6 @@ const proyectos = [
     imagen: "/gifs/Home2.gif",
     link: "https://tudemo.com/blog",
     github: "https://github.com/tuusuario/blog-personal"
-  },
-  {
-    titulo: "Portfolio Animado",
-    descripcion: "Portafolio con animaciones y efectos visuales avanzados.",
-    tecnologias: ["React", "GSAP", "Three.js"],
-    imagen: "/gifs/Home.gif",
-    link: "https://tudemo.com/portfolio-animado",
-    github: "https://github.com/tuusuario/portfolio-animado"
-  },
-  {
-    titulo: "API RESTful",
-    descripcion: "API para gestión de usuarios y autenticación JWT.",
-    tecnologias: ["Node.js", "Express", "MongoDB"],
-    imagen: "/gifs/dev-room.gif",
-    link: "https://tudemo.com/api",
-    github: "https://github.com/tuusuario/api-restful"
   }
 ];
 
