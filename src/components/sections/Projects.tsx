@@ -44,16 +44,16 @@ const proyectos = [
   },
   {
     titulo: "Dulce Hogar - Repostería",
-    descripcion: "Sistema web para impulsar negocio de repostería.",
-    tecnologias: ["Next.js", "TypeScript", "Vercel"],
+    descripcion: "Una moderna página web para repostería.",
+    tecnologias: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     imagen: "/gifs/Home2.gif",
     link: "/image_projects/DulceHogar.png",
     github: "https://github.com/Starkora/dulcehogar"
   },
   {
     titulo: "Nuestro Rincon - Blog para Parejas",
-    descripcion: "Sistema web de blog para parejas.",
-    tecnologias: ["Next.js", "TypeScript", "Vercel"],
+    descripcion: "Una aplicación web para parejas que desean compartir y preservar sus momentos especiales juntos.",
+    tecnologias: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Cloudinary"],
     imagen: "/image_projects/NuestroRincon.png",
     link: "https://github.com/Starkora/NuestroRincon",
     github: "https://nuestro-rincon-navy.vercel.app/"
