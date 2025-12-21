@@ -31,7 +31,7 @@ const proyectos = [
     descripcion: "Sistema de gestión de contraseñas seguro para Escritorio.",
     tecnologias: ["Python", "PyQt5(GUI)", "PyInstaller"],
     imagen: "/image_projects/SecureX-Desktop.png", 
-    link: "",
+    link: "https://github.com/Starkora/SecureX/releases/latest/download/SecureX_v1.0_Installer.zip",
     github: "https://github.com/Starkora/SecureX"
   },
   {
@@ -39,7 +39,7 @@ const proyectos = [
     descripcion: "Gestor de tareas con drag & drop y notificaciones.",
     tecnologias: ["React Native", "Android Nativo", "TypeScript"],
     imagen: "/image_projects/SecureX-Movil.jpeg",
-    link: "",
+    link: "https://github.com/Starkora/SecureX/releases/latest/download/SecureX-mobile.apk",
     github: "https://github.com/Starkora/SecureX/tree/main/mobile"
   },
   {
@@ -80,7 +80,17 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-4 mt-2">
-                  <a href={project.link} target="_blank" rel="noopener" className="bg-orange-500 text-white px-4 py-1 rounded-full text-xs font-semibold hover:bg-orange-600 transition">Demo</a>
+                  {project.link && (
+                    <a 
+                      href={project.link} 
+                      target="_blank" 
+                      rel="noopener" 
+                      download
+                      className="bg-orange-500 text-white px-4 py-1 rounded-full text-xs font-semibold hover:bg-orange-600 transition"
+                    >
+                      {project.link.includes('releases') ? 'Descargar' : 'Demo'}
+                    </a>
+                  )}
                   <a href={project.github} target="_blank" rel="noopener" className="bg-slate-800 text-white px-4 py-1 rounded-full text-xs font-semibold hover:bg-orange-500 transition">Código</a>
                 </div>
               </motion.div>
