@@ -46,8 +46,8 @@ const proyectos = [
     titulo: "Dulce Hogar - Repostería",
     descripcion: "Una moderna página web para repostería.",
     tecnologias: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    imagen: "/gifs/Home2.gif",
-    link: "/image_projects/DulceHogar.png",
+    imagen: "/image_projects/DulceHogar.png",
+    link: "https://dulcehogar.vercel.app/",
     github: "https://github.com/Starkora/dulcehogar"
   },
   {
