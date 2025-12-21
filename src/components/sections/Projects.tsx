@@ -11,14 +11,6 @@ const proyectos = [
     github: "https://github.com/Starkora/Kairos/tree/master/web"
   },
   {
-    titulo: "Kairos App Móvil",
-    descripcion: "Plataforma móvil para gestión financiera personal.",
-    tecnologias: ["React-Native-Puro", "TypeScript", "Gradle", "Java", "Metro"],
-    imagen: "/gifs/dev-room.gif",
-    link: "",
-    github: "https://github.com/Starkora/Kairos_App"
-  },
-  {
     titulo: "Portfolio Next.js",
     descripcion: "Portafolio personal con SSR y animaciones.",
     tecnologias: ["React", "TypeScript", "Vite"],
@@ -35,12 +27,20 @@ const proyectos = [
     github: "https://github.com/Starkora/E-commerce-Esmeralda"
   },
   {
-    titulo: "App de Tareas",
+    titulo: "SecureX - Gestor de Contraseñas",
+    descripcion: "Sistema de gestión de contraseñas seguro para Escritorio.",
+    tecnologias: ["Python", "PyQt5(GUI)", "PyInstaller"],
+    imagen: "/image_projects/SecureX-Desktop.png", 
+    link: "",
+    github: "https://github.com/Starkora/SecureX"
+  },
+  {
+    titulo: "SecureX - Gestor de Contraseñas(Móvil)",
     descripcion: "Gestor de tareas con drag & drop y notificaciones.",
-    tecnologias: ["React", "Firebase", "Tailwind"],
-    imagen: "/gifs/dev-room.gif",
-    link: "https://tudemo.com/tareas",
-    github: "https://github.com/tuusuario/app-tareas"
+    tecnologias: ["React Native", "Android Nativo", "TypeScript"],
+    imagen: "/image_projects/SecureX-Movil.jpeg",
+    link: "",
+    github: "https://github.com/Starkora/SecureX/tree/main/mobile"
   },
   {
     titulo: "Blog Personal",
