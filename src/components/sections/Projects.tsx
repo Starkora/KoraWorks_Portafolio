@@ -55,8 +55,16 @@ const proyectos = [
     descripcion: "Una aplicación web para parejas que desean compartir y preservar sus momentos especiales juntos.",
     tecnologias: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Cloudinary"],
     imagen: "/image_projects/NuestroRincon.png",
-    link: "https://github.com/Starkora/NuestroRincon",
-    github: "https://nuestro-rincon-navy.vercel.app/"
+    link: "https://nuestro-rincon-navy.vercel.app/",
+    github: "https://github.com/Starkora/NuestroRincon"
+  },
+  {
+    titulo: "Adopta un Amigo - Sistema web para adopción de mascotas",
+    descripcion: "Sistema web completo para conectar adoptantes con rescatistas y refugios de animales.",
+    tecnologias: ["Angular 18","TypeScript", "SCSS", "Supabase", "Cloudinary", "NestJS"],
+    imagen: "/image_projects/AdoptaUnAmigo.png",
+    link: "https://adopta-un-amigo-pi.vercel.app/",
+    github: "https://github.com/Starkora/AdoptaUnAmigo"
   }
 ];
 
