@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaDownload } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaDownload } from 'react-icons/fa';
 
 interface HomeSectionProps {
     onNavigate?: (sectionId: string) => void;
@@ -79,17 +79,11 @@ const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
                         </div>
                     </div>
                     <div className="flex flex-wrap gap-3 sm:gap-4 mb-4 items-center justify-center">
-                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/esteban-eduardo-cardenas-p%C3%A9rez-545238241?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4ZYD2dekRSS1d5NO6m8Z7g%3D%3D" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
+                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="linkedin.com/in/esteban-eduardo-c-545238241" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
                             <FaLinkedin />
                         </motion.a>
                         <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://github.com/Starkora" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
                             <FaGithub />
-                        </motion.a>
-                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://twitter.com" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
-                            <FaTwitter />
-                        </motion.a>
-                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://www.instagram.com/estebankora/" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
-                            <FaInstagram />
                         </motion.a>
                     </div>
                     <div className="flex flex-wrap gap-2 sm:gap-3 mb-4 items-center justify-center">
