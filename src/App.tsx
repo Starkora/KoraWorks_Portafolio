@@ -14,7 +14,7 @@ import { SectionProgressBar } from './components/ui/SectionProgressBar';
 
 export default function Home() {
   const sections = [
-    { id: 'home', label: 'Home', component: <HomeSection /> },
+    { id: 'home', label: 'Home', component: null as React.ReactNode },
     { id: 'about', label: 'Sobre mí', component: <About /> },
     { id: 'projects', label: 'Proyectos', component: <Projects /> },
     { id: 'experience', label: 'Experiencia', component: <ExperienceSection /> },
@@ -66,7 +66,7 @@ export default function Home() {
             transition={{ type: 'spring', stiffness: 120, damping: 20, duration: 0.5 }}
             className="w-full h-full flex items-center justify-center"
           >
-            {sections.find(s => s.id === activeSection)?.component}
+            {activeSection === 'home' ? <HomeSection onNavigate={handleNav} /> : sections.find(s => s.id === activeSection)?.component}
           </motion.div>
         </AnimatePresence>
       </div>

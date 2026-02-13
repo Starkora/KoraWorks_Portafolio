@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaDownload } from 'react-icons/fa';
 
+interface HomeSectionProps {
+    onNavigate?: (sectionId: string) => void;
+}
 
-
-
-const HomeSection: React.FC = () => {
+const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
     const fullText = 'puedes optimizarlo!';
     const [typedText, setTypedText] = useState('');
 
@@ -46,10 +47,7 @@ const HomeSection: React.FC = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full">
                             <button
-                                onClick={() => {
-                                    const el = document.getElementById('projects');
-                                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                                }}
+                                onClick={() => onNavigate?.('projects')}
                                 className="bg-transparent text-white border-2 border-white rounded-full px-6 py-2 text-base hover:border-orange-500 hover:text-orange-500 transition w-full sm:w-auto flex items-center justify-center"
                                 aria-label="Ver proyectos"
                             >
