@@ -79,7 +79,7 @@ const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
                         </div>
                     </div>
                     <div className="flex flex-wrap gap-3 sm:gap-4 mb-4 items-center justify-center">
-                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="linkedin.com/in/esteban-eduardo-c-545238241" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
+                        <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://linkedin.com/in/esteban-eduardo-c-545238241" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
                             <FaLinkedin />
                         </motion.a>
                         <motion.a whileHover={{ scale: 1.2, color: '#ff8800' }} whileTap={{ scale: 0.9 }} href="https://github.com/Starkora" target="_blank" rel="noopener" className="text-slate-300 hover:text-orange-500 text-xl sm:text-2xl transition">
