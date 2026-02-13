@@ -102,8 +102,8 @@ const HomeSection: React.FC = () => {
                         <motion.span whileHover={{ scale: 1.3, rotate: 10 }} whileTap={{ scale: 0.9 }} title="JavaScript"><FaJsSquare className="text-yellow-300 text-lg sm:text-xl" /></motion.span>
                     </div>
                     <a
-                        href="/CV/CV_Esteban%20Cardenas.pdf"
-                        download
+                        href="/CV/CV_EstebanCardenas.pdf"
+                        download="CV_EstebanCardenas.pdf"
                         className="flex items-center gap-2 bg-black/60 text-white border-2 border-white rounded-full px-5 py-2 text-base mb-4 hover:border-orange-500 hover:text-orange-500 transition mx-auto justify-center"
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                     >
